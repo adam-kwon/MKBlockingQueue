@@ -5,7 +5,7 @@ Simple bocking queue implementation in Objective-C.
 
 Usage:
 
-Copy the MKBlockingQueue folder into your project and import "MKBlockingQueue.h".
+Add the MKBlockingQueue folder into your project and import "MKBlockingQueue.h".
 
 Example:
 
