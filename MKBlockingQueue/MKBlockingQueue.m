@@ -52,6 +52,11 @@
     return object;
 }
 
+- (NSUInteger)count
+{
+    return [_queue count];
+}
+
 - (void)dealloc
 {
     self.dispatchQueue = nil;

@@ -19,5 +19,7 @@
  * Dequeues an object from the queue.  This method will block.
  */
 - (id)dequeue;
-    
+
+- (NSUInteger)count;
+
 @end
