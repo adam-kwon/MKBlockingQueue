@@ -19,8 +19,6 @@
 		39FB7A40193649E400828733 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FB7A3F193649E400828733 /* XCTest.framework */; };
 		39FB7A41193649E400828733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FB7A20193649E400828733 /* Foundation.framework */; };
 		39FB7A42193649E400828733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FB7A24193649E400828733 /* UIKit.framework */; };
-		39FB7A4A193649E400828733 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39FB7A48193649E400828733 /* InfoPlist.strings */; };
-		39FB7A4C193649E400828733 /* ProducerConsumerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FB7A4B193649E400828733 /* ProducerConsumerTestTests.m */; };
 		39FB7A5B1936657E00828733 /* MKBlockingQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FB7A5A1936657E00828733 /* MKBlockingQueue.m */; };
 /* End PBXBuildFile section */
 
@@ -51,9 +49,6 @@
 		39FB7A38193649E400828733 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		39FB7A3E193649E400828733 /* ProducerConsumerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProducerConsumerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FB7A3F193649E400828733 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		39FB7A47193649E400828733 /* ProducerConsumerTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProducerConsumerTestTests-Info.plist"; sourceTree = "<group>"; };
-		39FB7A49193649E400828733 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		39FB7A4B193649E400828733 /* ProducerConsumerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProducerConsumerTestTests.m; sourceTree = "<group>"; };
 		39FB7A591936657E00828733 /* MKBlockingQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBlockingQueue.h; sourceTree = SOURCE_ROOT; };
 		39FB7A5A1936657E00828733 /* MKBlockingQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBlockingQueue.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -86,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				39FB7A26193649E400828733 /* ProducerConsumerTest */,
-				39FB7A45193649E400828733 /* ProducerConsumerTestTests */,
 				39FB7A1F193649E400828733 /* Frameworks */,
 				39FB7A1E193649E400828733 /* Products */,
 			);
@@ -134,24 +128,6 @@
 				39FB7A29193649E400828733 /* InfoPlist.strings */,
 				39FB7A2C193649E400828733 /* main.m */,
 				39FB7A2E193649E400828733 /* ProducerConsumerTest-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		39FB7A45193649E400828733 /* ProducerConsumerTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				39FB7A4B193649E400828733 /* ProducerConsumerTestTests.m */,
-				39FB7A46193649E400828733 /* Supporting Files */,
-			);
-			path = ProducerConsumerTestTests;
-			sourceTree = "<group>";
-		};
-		39FB7A46193649E400828733 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				39FB7A47193649E400828733 /* ProducerConsumerTestTests-Info.plist */,
-				39FB7A48193649E400828733 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -251,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39FB7A4A193649E400828733 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39FB7A4C193649E400828733 /* ProducerConsumerTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +276,6 @@
 				39FB7A33193649E400828733 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		39FB7A48193649E400828733 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39FB7A49193649E400828733 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
