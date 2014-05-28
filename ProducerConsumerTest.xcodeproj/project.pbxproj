@@ -19,7 +19,6 @@
 		39FB7A40193649E400828733 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FB7A3F193649E400828733 /* XCTest.framework */; };
 		39FB7A41193649E400828733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FB7A20193649E400828733 /* Foundation.framework */; };
 		39FB7A42193649E400828733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FB7A24193649E400828733 /* UIKit.framework */; };
-		39FB7A5B1936657E00828733 /* MKBlockingQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FB7A5A1936657E00828733 /* MKBlockingQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +48,6 @@
 		39FB7A38193649E400828733 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		39FB7A3E193649E400828733 /* ProducerConsumerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProducerConsumerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FB7A3F193649E400828733 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		39FB7A591936657E00828733 /* MKBlockingQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBlockingQueue.h; sourceTree = SOURCE_ROOT; };
-		39FB7A5A1936657E00828733 /* MKBlockingQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBlockingQueue.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +132,6 @@
 		39FB7A581936656700828733 /* MKBlockingQueue */ = {
 			isa = PBXGroup;
 			children = (
-				39FB7A591936657E00828733 /* MKBlockingQueue.h */,
-				39FB7A5A1936657E00828733 /* MKBlockingQueue.m */,
 			);
 			name = MKBlockingQueue;
 			sourceTree = "<group>";
@@ -239,7 +234,6 @@
 			files = (
 				39FB7A37193649E400828733 /* ViewController.m in Sources */,
 				39FB7A31193649E400828733 /* AppDelegate.m in Sources */,
-				39FB7A5B1936657E00828733 /* MKBlockingQueue.m in Sources */,
 				39FB7A2D193649E400828733 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
