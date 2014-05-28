@@ -18,6 +18,7 @@ Example:
     {
         while (YES)
         {
+            // This will block until there is data
             NSString *s = [_blockingQueue dequeue];
             NSLog(@"Dequeued: %@", s];
         }
