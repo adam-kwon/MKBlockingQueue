@@ -5,6 +5,11 @@ Simple bocking queue implementation in Objective-C.
 
 Example:
 
+    ....
+    self.blockingQueue = [[MKBlockingQueue alloc] init];
+    ....
+    ....
+    
     - (void)producerThread
     {
         while (YES)
